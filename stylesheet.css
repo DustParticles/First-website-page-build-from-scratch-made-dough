@@ -1,0 +1,136 @@
+body {
+    margin: 0%;
+}
+
+
+* {
+    border: 1px solid red;
+
+
+}
+.header { 
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 34, 128);
+    line-height: 1.6;
+    padding: 0px 50px 50px 50px;
+
+    
+}
+
+.headertext {
+    color: white;
+}
+
+.headerstrong {
+    font-size: 40px;
+}
+
+.headercontents {
+    display: flex;
+
+}
+
+.signup {
+    background-color: rgb(0, 119, 255);
+    color: whitesmoke;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 4px;
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+
+}
+
+.logo {
+    display: flex;
+    margin-right: auto;
+}
+
+.chest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(191, 255, 0);
+    padding: 30px;
+    gap: 30px;
+}
+
+.images {
+    display: flex;
+    gap: 50px;
+}
+
+.belly{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+    padding: 20%;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.feelsstrongman {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.quoteguy {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+}
+
+.footer {
+    display: flex;
+    background-color: lightblue;
+    padding: 100px;
+    justify-content: center;
+}
+
+.ad {
+    display: flex;
+}
+
+.legalstuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lime;
+    width: 500px;
+    height: 100px;
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: small;
+}
+
+.chestimages {
+    border: 4px solid lightskyblue;
+    border-radius: 20%;
+}
