@@ -2,12 +2,13 @@ body {
     margin: 0%;
 }
 
-
+/*
 * {
     border: 1px solid red;
 
 
 }
+*/
 .header { 
     display: flex;
     flex-direction: column;
@@ -20,6 +21,7 @@ body {
 
 .headertext {
     color: white;
+    
 }
 
 .headerstrong {
@@ -28,7 +30,7 @@ body {
 
 .headercontents {
     display: flex;
-
+;
 }
 
 .signup {
@@ -38,6 +40,7 @@ body {
     border-radius: 4px;
     padding: 4px;
     width: 100px;
+    margin-top: 6px;
 
 }
 
@@ -59,16 +62,21 @@ body {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(191, 255, 0);
-    padding: 50px;
+    background-color: rgb(214, 255, 93);
+    padding: 100px;
     gap: 30px;
 }
 
 .chestimages {
-    border: 4px solid lightskyblue;
+    border: 4px solid rgb(179, 255, 0);
     border-radius: 10%;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+}
+
+.imagetext {
+    font-weight: 600;
+    line-height: 1.6;
 }
 
 .images {
@@ -108,10 +116,18 @@ body {
     background-color: lightblue;
     padding: 100px;
     justify-content: center;
+
 }
 
 .ad {
     display: flex;
+
+    line-height: 1.6;
+}
+
+
+.reasonsignup {
+    font-size: 15px;
 }
 
 .signupad {
@@ -122,6 +138,7 @@ body {
     border: 2px solid white;
     color: white;
     font-weight: 600;
+
 }
 
 .footercontainer {
@@ -129,10 +146,12 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: rgb(14, 104, 221);
-    width: 600px;
-    height: 100px;
+    width: 900px;
+    height: 110px;
     border-radius: 6px;
     color: white;
+    padding: 0px 40px 0px 40px;
+    gap: 69px;
 }
 
 a {
